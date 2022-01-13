@@ -14,11 +14,7 @@ export class FinancialOverview extends Component {
     }
 
     async componentDidMount(){
-        this.fetch_all()
-        await supabase
-            .from('income_forms')
-            .select()
-
+        await this.fetch_all()
     }
 
     async fetch_all() {
