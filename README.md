@@ -1,7 +1,6 @@
 ---
-Email: Password
-quack@quackmail.com: Entchen
-vogel@birdmail.com: Zwitscher
+Email: quack@quackmail.com: vogel@birdmail.com
+Passwort: Entchen: Zwitscher
 ---
 
 
