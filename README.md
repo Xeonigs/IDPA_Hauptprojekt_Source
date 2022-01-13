@@ -2,7 +2,7 @@ The "install.bat" will call the function "npm install" which will install all ne
 
 After that you can just start the app with the "start.bat" file.
 
-
+------
 
 **If you are not able to start the app:**
 
