@@ -1,0 +1,68 @@
+.buttonColor{
+    background-color: #2AC7AB;
+    border-color: #2AC7AB;
+}
+.buttonRight{
+    background-color: #2AC7AB;
+    border-color: #2AC7AB;
+    float: right;
+}
+.buttonColor:hover{
+    background-color: #0b8a73;
+    border-color: #0b8a73;
+}
+.buttonRight:hover{
+    background-color: #0b8a73;
+    border-color: #0b8a73;
+
+}
+.navbar{
+
+    background-color: #2AC7AB;
+
+
+}
+
+.buttonLogout{
+    background-color: #221d23;
+    border-color: #221d23;
+    color:white;
+}
+.buttonLogout:hover{
+    background-color: #4c4b4d;
+    border-color: #4c4b4d;
+}
+.title{
+
+    padding: 2%;
+}
+
+
+
+button.accordion-button:not(.collapsed){
+
+    background-color: #e7fdf9;
+    color: black;
+}
+button.accordion-button.collapsed{
+
+    background-color: #e7fdf9;
+
+}
+
+.predictionTitle{
+    font-size: 50px;
+    padding: 2%;
+}
+
+.button-group {
+    width: 100%;
+}
+
+.button-accordion {
+    width: 90%;
+}
+
+.table-del-row {
+    width: 10%;
+}
