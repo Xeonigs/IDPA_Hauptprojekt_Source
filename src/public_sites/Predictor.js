@@ -1,5 +1,5 @@
 import { Container, Button, InputGroup, FormControl, Row, Col } from 'react-bootstrap';
-import {Component, React} from 'react';
+import {Component } from 'react';
 import {Navigation} from "../components/Navigation";
 
 

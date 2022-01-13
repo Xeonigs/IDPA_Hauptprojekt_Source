@@ -1,13 +1,9 @@
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import {useAuth} from "./Auth";
 import {supabase} from "./supabaseClient";
-import {React} from "react";
-import {useHistory} from "react-router-dom";
 
 async function handleSignOut() {
     await supabase.auth.signOut()
-
-    useHistory.push('/login')
 }
 
 export function Navigation() {

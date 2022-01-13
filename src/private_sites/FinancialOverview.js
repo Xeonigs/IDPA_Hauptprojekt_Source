@@ -72,7 +72,7 @@ export class FinancialOverview extends Component {
 
     async createIncomeCategorie(title) {
         if (!(title.replace(/\s/g, '') === '')) {
-            const { data, error } = await supabase
+            await supabase
                 .from('income_forms')
                 .insert([
                     { title: title, user_id: supabase.auth.user().id }
@@ -84,7 +84,7 @@ export class FinancialOverview extends Component {
 
     async createSpendingCategorie(title) {
         if (!(title.replace(/\s/g, '') === '')) {
-            /*const { data, error } =*/ await supabase
+            await supabase
                 .from('spending_forms')
                 .insert([
                     { title: title, user_id: supabase.auth.user().id }
@@ -95,8 +95,6 @@ export class FinancialOverview extends Component {
     }
 
     render() {
-        console.log(this.state.income_forms)
-
         return(
             <>
                 <Navigation />
