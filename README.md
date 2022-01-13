@@ -1,9 +1,12 @@
+Logins:
 ---
 Email: Passwort
 quack@quackmail.com: Entchen
 vogel@birdmail.com: Zwitscher
 ---
 
+
+Guide:
 
 The "install.bat" will call the function "npm install" which will install all neccessary node_modules (300+ MB).
 
