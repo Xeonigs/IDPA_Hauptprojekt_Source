@@ -1,10 +1,9 @@
-Logins:
+Login:
 
----
-Email: Passwort
-quack@quackmail.com: Entchen
-vogel@birdmail.com: Zwitscher
----
+| Email               | Passwort  |
+|---------------------|-----------|
+| quack@quackmail.com | Entchen   |
+| vogel@birdmail.com  | Zwitscher |
 
 
 Guide:
