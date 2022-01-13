@@ -3,7 +3,7 @@ Login:
 | Email               | Passwort  |
 |---------------------|-----------|
 | quack@quackmail.com | Entchen   |
-| vogel@birdmail.com  | Zwitscher |
+| vogel@birdmail.com | Zwitscher |
 
 
 Guide:
